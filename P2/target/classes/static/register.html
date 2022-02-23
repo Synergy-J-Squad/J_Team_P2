@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="https://www.thymeleaf.org" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>New User</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<form action="#" th:action="@{/users}" th:object="${user}" method="post">
+    <p>email: <input type="email" th:field="*{email}" /></p>
+    <p>password: <input type="password" th:field="*{password}" /></p>
+    <p>firstname: <input type="text" th:field="*{firstname}" /></p>
+    <p>lastname: <input type="text" th:field="*{lastname}" /></p>
+
+    <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+
+<form action="users" target="Self" method="POST">
+    <fieldset>
+        <legend>New User Registration</legend>
+        <label>First Name:
+            <input type="text" name="firstname" minlength="1" required>
+        </label>
+        <br/>
+        <br/>
+        <label>Last Name:
+            <input type="text" name="lastname" minlength="1" required>
+        </label>
+        <br/>
+        <br/>
+        <label>E-mail:
+            <input type="email" name="email" placeholder="email@example.com" required>
+        </label>
+        <br/>
+        <br/>
+        <label>Password:
+            <input type="password" id="password" name="password" minlength="7"  onkeyup='check();' onchange='check_pass();' required>
+        </label>
+        <br/>
+        <br/>
+        <label>Confirm Password:
+            <input type="password" id="confirm_password" name="RePassword" minlength="7" onkeyup='check();' onchange='check_pass();' required>
+            <span id='message'></span>
+        </label>
+        <br/>
+        <script>
+          var check = function() {
+            if (document.getElementById('password').value ==
+            document.getElementById('confirm_password').value) {
+            document.getElementById('message').style.color = 'green';
+            document.getElementById('message').innerHTML = 'matching';
+            } else {
+            document.getElementById('message').style.color = 'red';
+            document.getElementById('message').innerHTML = 'not matching';
+             }
+             }
+          function check_pass() {
+             if (document.getElementById('password').value ==
+               document.getElementById('confirm_password').value) {
+                document.getElementById('submit').disabled = false;
+                } else {
+            document.getElementById('submit').disabled = true;
+                 }
+                }
+        </script>
+        <br/>
+    </fieldset>
+
+    <br>
+    <input type="submit" id="submit" value="Next Page" disabled>
+
+</form>
+
+
+</body>
+</html>
