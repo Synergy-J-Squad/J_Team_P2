@@ -8,7 +8,12 @@ import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.view.RedirectView;
 
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.List;
 
 
@@ -17,7 +22,7 @@ import java.util.List;
 @RestController
 @Data
 @RequestMapping("/users")
-public class UserController {
+public class UserController extends HttpServlet {
 
     private UserRepository userRepo;
 
@@ -31,11 +36,19 @@ public class UserController {
         return userRepo.findAll();
     }
 
-    @PostMapping//(consumes="application/json",produces="application/json")
-    public User addUser(@RequestBody User user){
-        
-        System.out.println(user);
-        return userRepo.save(user);
+    @PostMapping
+    public RedirectView addUser(@RequestParam("firstname") String firstname, @RequestParam("password") String password , @RequestParam("lastname") String lastname, @RequestParam("email") String email) {
+
+        User u = new User(null,email,password,firstname,lastname);
+
+        System.out.println(u);
+        userRepo.save(u);
+
+        RedirectView redirectView = new RedirectView();
+        redirectView.setUrl("http://localhost:8080/com/");
+
+        return redirectView;
+
     }
 
 
