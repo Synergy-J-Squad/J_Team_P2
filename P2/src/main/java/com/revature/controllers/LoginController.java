@@ -29,6 +29,7 @@ public class LoginController extends HttpServlet {
 
         User u = userRepo.findByEmail(email);
         RedirectView redirectView = new RedirectView();
+        System.out.println(u);
 
         redirectView.setUrl("http://localhost:8080/com/");
 

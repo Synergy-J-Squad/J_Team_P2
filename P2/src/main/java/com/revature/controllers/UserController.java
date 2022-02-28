@@ -39,7 +39,7 @@ public class UserController extends HttpServlet {
     @PostMapping
     public RedirectView addUser(@RequestParam("firstname") String firstname, @RequestParam("password") String password , @RequestParam("lastname") String lastname, @RequestParam("email") String email) {
 
-        User u = new User(null,email,password,firstname,lastname);
+        User u = new User(firstname,lastname,email,password);
 
         System.out.println(u);
         userRepo.save(u);
