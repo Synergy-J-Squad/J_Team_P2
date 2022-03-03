@@ -1,0 +1,430 @@
+country,product_category,qty
+China,Outdoor Equipment,22
+China,Office Supplies,22
+China,Health & Beauty,18
+China,Baby Products,18
+China,Clothing,17
+China,Automotive,17
+China,Grocery,16
+Indonesia,Automotive,16
+China,Home Goods,16
+China,Electronics,15
+Indonesia,Baby Products,13
+Indonesia,Electronics,12
+Philippines,Entertainment,12
+Indonesia,Outdoor Equipment,11
+Indonesia,Office Supplies,10
+Philippines,Grocery,9
+Russia,Clothing,9
+China,Entertainment,9
+Brazil,Entertainment,9
+Russia,Electronics,8
+Brazil,Automotive,8
+Indonesia,Clothing,8
+Indonesia,Entertainment,8
+Philippines,Office Supplies,8
+Indonesia,Home Goods,8
+Philippines,Home Goods,7
+Philippines,Health & Beauty,7
+Brazil,Electronics,7
+Brazil,Grocery,6
+Portugal,Clothing,6
+Philippines,Electronics,6
+Ukraine,Home Goods,6
+Indonesia,Grocery,6
+Indonesia,Health & Beauty,6
+Czech Republic,Grocery,6
+Russia,Baby Products,5
+Brazil,Health & Beauty,5
+Russia,Health & Beauty,5
+Russia,Office Supplies,5
+Brazil,Clothing,5
+Russia,Entertainment,5
+Czech Republic,Office Supplies,5
+Philippines,Outdoor Equipment,5
+Portugal,Health & Beauty,4
+Portugal,Outdoor Equipment,4
+Canada,Clothing,4
+France,Health & Beauty,4
+Philippines,Baby Products,4
+Colombia,Automotive,4
+Thailand,Grocery,4
+Ukraine,Entertainment,4
+Russia,Automotive,4
+United States,Health & Beauty,4
+Brazil,Baby Products,4
+Philippines,Automotive,4
+Sweden,Outdoor Equipment,4
+United States,Outdoor Equipment,4
+Poland,Entertainment,4
+Poland,Grocery,4
+Thailand,Home Goods,4
+France,Clothing,4
+Finland,Office Supplies,3
+France,Outdoor Equipment,3
+Sweden,Baby Products,3
+Poland,Baby Products,3
+Colombia,Office Supplies,3
+United States,Electronics,3
+Mexico,Outdoor Equipment,3
+Poland,Health & Beauty,3
+Japan,Office Supplies,3
+Portugal,Electronics,3
+Russia,Home Goods,3
+Poland,Home Goods,3
+Argentina,Automotive,3
+Greece,Health & Beauty,3
+France,Home Goods,3
+France,Automotive,3
+Sweden,Automotive,3
+Czech Republic,Clothing,3
+Russia,Grocery,3
+United States,Office Supplies,3
+Philippines,Clothing,3
+Nigeria,Home Goods,3
+Russia,Outdoor Equipment,3
+Greece,Electronics,3
+France,Entertainment,3
+Portugal,Office Supplies,3
+Iran,Electronics,3
+France,Office Supplies,3
+Sweden,Grocery,3
+United States,Grocery,3
+Poland,Outdoor Equipment,3
+Peru,Outdoor Equipment,2
+Japan,Clothing,2
+Colombia,Baby Products,2
+Nigeria,Health & Beauty,2
+Ukraine,Grocery,2
+Bulgaria,Office Supplies,2
+Mexico,Automotive,2
+Portugal,Baby Products,2
+Canada,Outdoor Equipment,2
+Canada,Office Supplies,2
+France,Baby Products,2
+Czech Republic,Electronics,2
+Kosovo,Home Goods,2
+Czech Republic,Outdoor Equipment,2
+Japan,Outdoor Equipment,2
+Japan,Automotive,2
+Portugal,Entertainment,2
+Japan,Home Goods,2
+Syria,Grocery,2
+North Korea,Automotive,2
+Japan,Grocery,2
+Slovenia,Office Supplies,2
+Peru,Home Goods,2
+Argentina,Health & Beauty,2
+Madagascar,Health & Beauty,2
+Colombia,Home Goods,2
+Japan,Entertainment,2
+Tanzania,Electronics,2
+Czech Republic,Health & Beauty,2
+Brazil,Home Goods,2
+,Grocery,2
+Slovenia,Outdoor Equipment,2
+Ireland,Electronics,2
+Norway,Electronics,2
+Ukraine,Office Supplies,2
+Nigeria,Outdoor Equipment,2
+Pakistan,Office Supplies,2
+Poland,Automotive,2
+Greece,Office Supplies,2
+Kazakhstan,Baby Products,2
+Armenia,Health & Beauty,2
+Cameroon,Clothing,2
+Vietnam,Baby Products,2
+Colombia,Grocery,2
+Argentina,Home Goods,2
+Poland,Office Supplies,2
+Azerbaijan,Office Supplies,2
+Croatia,Health & Beauty,2
+Japan,Electronics,2
+Portugal,Grocery,2
+Serbia,Baby Products,2
+Venezuela,Health & Beauty,2
+Dominican Republic,Automotive,2
+Brazil,Outdoor Equipment,2
+Finland,Electronics,2
+Poland,Clothing,2
+Colombia,Electronics,2
+Ukraine,Electronics,2
+Mongolia,Home Goods,2
+Bosnia and Herzegovina,Outdoor Equipment,2
+Albania,Health & Beauty,2
+Brazil,Office Supplies,2
+Benin,Clothing,2
+Czech Republic,Entertainment,2
+Palestinian Territory,Grocery,2
+Tanzania,Office Supplies,2
+United States,Clothing,2
+Venezuela,Electronics,2
+Sweden,Clothing,2
+Uzbekistan,Home Goods,1
+,Automotive,1
+Poland,Electronics,1
+Malaysia,Office Supplies,1
+Syria,Automotive,1
+Palestinian Territory,Automotive,1
+United Kigdom,Entertainment,1
+Iran,Health & Beauty,1
+Norf Korea,Clothing,1
+Kenya,Automotive,1
+Nepal,Entertainment,1
+Guinea,Entertainment,1
+Netherlands,Electronics,1
+Martinique,Entertainment,1
+Finland,Home Goods,1
+Netherlands,Baby Poducts,1
+Mexico,Clothing,1
+Peru,Health & Beauty,1
+Monaco,Grocery,1
+Belarus,Grocery,1
+Chad,Clothing,1
+North Korea,Entertainment,1
+Canada,Entertainment,1
+Aland Islands,Baby Products,1
+Guatemala,Baby Products,1
+Sierra Leone,Clothing,1
+Thailand,Health & Beauty,1
+Bangladesh,Clothing,1
+Ecuador,Clothing,1
+Cambodia,Home Goods,1
+Colombia,Health & Beauty,1
+Cambodia,Office Supplies,1
+Greenland,Grocery,1
+Thailand,Baby Products,1
+Christmas Island,Electronics,1
+Syria,Home Goods,1
+Sierra Leone,Baby Products,1
+Luxembourg,Outdoor Equipment,1
+Czech Republic,Baby Products,1
+Madagascar,Entertainment,1
+Jordan,Office Supplies,1
+Chile,Electronics,1
+Japan,Health & Beauty,1
+Croatia,Grocery,1
+Egypt,Home Goods,1
+Slovenia,Electronics,1
+Chilly,Health & Beauty,1
+South Korea,Automotive,1
+Syria,Clothing,1
+Iran,Entertainment,1
+Morocco,Entertainment,1
+Ivory Coast,Automotive,1
+United States,Automotive,1
+Thailand,Outdoor Equipment,1
+Palestinian Territory,Home Goods,1
+Saint Kitts and Nevis,Electronics,1
+Costa Rica,Automotive,1
+Albania,Automotive,1
+Norway,Health & Beauty,1
+Vietnam,Grocery,1
+Colombia,Clothing,1
+Belarus,Automotive,1
+El Salvador,Outdoor Equipment,1
+United Kingdom,Grocery,1
+Latvia,Entertainment,1
+Cuba,Automotive,1
+Morocco,Clothing,1
+Norway,Baby Products,1
+North Korea,Baby Products,1
+North Korea,Home Goods,1
+United Movies,Clothing,1
+Bangladesh,Entertainment,1
+Bulgaria,Baby Products,1
+Germany,Home Goods,1
+Tunisia,Entertainment,1
+United States,Home Goods,1
+Palestinian Territory,Outdoor Equipment,1
+China,Health & Beaty,1
+Cambodia,Outdoor Equipment,1
+Argentina,Baby Products,1
+Togo,Clothing,1
+Costa Rica,Electronics,1
+Hungary,Clothing,1
+Finland,Entertainment,1
+Albania,Grocery,1
+Trinidad and Tobago,Automotive,1
+Zimbabwe,Electronics,1
+Uzbekistan,Outdoor Equipment,1
+Argentina,Entertainment,1
+Taiwan,Home Goods,1
+Noway,Electronics,1
+Paraguay,Baby Products,1
+Iraq,Home Goods,1
+Thailand,Clothing,1
+Bulgaria,Health & Beauty,1
+Nauru,Health & Beauty,1
+Botswana,Automotive,1
+Guatemala,Home Goods,1
+Venezuela,Baby Products,1
+Benin,Home Goods,1
+Bolivia,Entertainment,1
+Germany,Electronics,1
+Chad,Home Goods,1
+Lithuania,Outdoor Equipment,1
+Sweden,Health & Beauty,1
+,Clothing,1
+Yemen,Grocery,1
+Yemen,Office Supplies,1
+Guyana,Clothing,1
+Zambia,Grocery,1
+,Office Supplies,1
+Mayotte,Baby Products,1
+Belgium,Clothing,1
+Finland,Clothing,1
+China,Electonics,1
+Slovenia,Entertainment,1
+Turkmenistan,Grocery,1
+Turkmenistan,Entertainment,1
+Greece,Grocery,1
+Malaysia,Health & Beauty,1
+Egypt,Clothing,1
+Lips,Clothing,1
+Botswana,Office Supplies,1
+Ecuador,Home Goods,1
+Mars,Health & Beauty,1
+New Zealand,Clothing,1
+Ivory Coast,Clothing,1
+Texas,Automotive,1
+Ghana,Outdoor Equipment,1
+Mongolia,Outdoor Equipment,1
+Luxembourg,Grocery,1
+Yemen,Clothing,1
+Planet,Clothing,1
+Croatia,Automotive,1
+Netherlands,Home Goods,1
+Kazakhstan,Home Goods,1
+Vietnam,Entertainment,1
+Kyrgyzstan,Baby Products,1
+Greece,Outdoor Equipment,1
+United States,Baby Products,1
+Mali,Automotive,1
+Spain,Outdoor Equipment,1
+Honduras,Office Supplies,1
+Cameroon,Office Supplies,1
+Lebanon,Automotive,1
+Pluto,Office Supplies,1
+Malawi,Home Goods,1
+South Africa,Health & Beauty,1
+Yemen,Automotive,1
+Sri Lanka,Entertainment,1
+Democratic Republic of the Congo,Outdoor Equipment,1
+Albania,Electronics,1
+Not,Grocery,1
+Democratic Republic of the Congo,Health & Beauty,1
+Sweden,Office Supplies,1
+Lithuania,Home Goods,1
+Mexico,Electronics,1
+Ukraine,Baby Products,1
+Germany,Entertainment,1
+Vietman,Outdoor Equipment,1
+Armenia,Entertainment,1
+France,Grocery,1
+Ireland,Automotive,1
+Somalia,Outdoor Equipment,1
+Netherlands,Automotive,1
+Argentina,Office Supplies,1
+Liberia,Health & Beauty,1
+Sweden,Home Goods,1
+Armenia,Outdoor Equipment,1
+Israel,Entertaiment,1
+Honduras,Clothing,1
+Cape Verde,Automotive,1
+Bahamas,Office Supplies,1
+Ukraine,Outdoor Equipment,1
+Zimbabwe,Grocery,1
+Denmark,Entertainment,1
+Ethiopia,Baby Products,1
+Egypt,Baby Products,1
+Honduras,Automotive,1
+Croatia,Entertainment,1
+Mauritius,Baby Products,1
+Argentina,Clothing,1
+Somalia,Home Goods,1
+Peru,Grocery,1
+Georgia,Office Supplies,1
+India,Office Supplies,1
+Macedonia,Home Goods,1
+Netherlands,Clothing,1
+Serbia,Automotive,1
+Uruguay,Outdoor Equipment,1
+Georgia,Grocery,1
+Azerbaijan,Outdoor Equipment,1
+Croatia,Clothing,1
+South Korea,Baby Products,1
+Costa Rica,Outdoor Equipment,1
+Nigeria,Grocery,1
+Czech Republic,Automotive,1
+Ghana,Bapy Products,1
+Jappan,Health & Beauty,1
+Egypt,Outdoor Equipment,1
+Greece,Baby Products,1
+Chinaa,Outdoor Equipment,1
+Ukraine,Health & Beauty,1
+Chyna,Office Supplies,1
+Saudi Arabia,Health & Beauty,1
+Bolivia,Home Goods,1
+Malta,Home Goods,1
+El Salvador,Grocery,1
+Thailand,Electronics,1
+Bulgaria,Entertainment,1
+Armenia,Office Supplies,1
+Paraguay,Outdoor Equipment,1
+Mongolia,Automotive,1
+Kazakhstan,Outdoor Equipment,1
+Belarus,Electronics,1
+Greece,Home Goods,1
+Switzerland,Office Supplies,1
+Latvia,Home Goods,1
+Pakistan,Outdoor Equipment,1
+Argentina,Outdoor Equipment,1
+Morocco,Home Goods,1
+Portugal,Automotive,1
+Pakistan,Health & Beauty,1
+Honduras,Entertainment,1
+Indonesia,Electranics,1
+Afghanistan,Clothing,1
+Nicaragua,Entertainment,1
+Panama,Entertainment,1
+Peru,Electronics,1
+Kazakhstan,Entertainment,1
+Netherlands,Grocery,1
+Finland,Baby Products,1
+Libya,Health & Beauty,1
+Spain,Office Supplies,1
+Chin,Health & Beauty,1
+North Korea,Electronics,1
+Chile,Automotive,1
+South Korea,Electronics,1
+Syria,Baby Products,1
+Cuba,Health & Beauty,1
+Kazakhstan,Grocery,1
+Mexico,Entertainment,1
+Bolivia,Electronics,1
+Kekistan,Baby Products,1
+Canada,Grocery,1
+Guatemala,Clothing,1
+Croatia,Electronics,1
+Colombia,Homie Hoods,1
+Slovenia,Baby Products,1
+Germany,Office Supplies,1
+Iraq,Electronics,1
+Afghanistan,Entertainment,1
+Slovenia,Home Goods,1
+Germany,Grocery,1
+United Kingdom,Electronics,1
+Alabama,Health & Beauty,1
+Nigeria,Automotive,1
+Ireland,Clothing,1
+Sweden,Entertainment,1
+Norway,Office Supplies,1
+Tanzania,Clothing,1
+Chile,Health & Beauty,1
+Mexico,Office Supplies,1
+Malawi,Electronics,1
+Vietnam,Automotive,1
+Myanmar,Home Goods,1
+United States,Entertainment,1
+Estonia,Entertainment,1
