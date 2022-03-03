@@ -4,23 +4,19 @@ import lombok.*;
 
 import javax.persistence.*;
 
-
+@Table
 @Entity
-@Table(name="-blank")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Q4TableValue {
+public class salesbyhour {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Integer id;
 
-    @Column(name = "hour")
-    private String hour;
-
-    @Column(name = "count")
-    private String count;
-
+    private Integer hour;
+    private Integer count;
 
 }
