@@ -20,7 +20,7 @@ public class topselling {
 
     private String country;
     private String product_category;
-    private String qty;
+    private Integer max;
 
 
 

@@ -1,6 +1,6 @@
-let mosturl = "http://localhost:8080/com/mostpop?";
-async function fetchMost() {
-    let res = await fetch(mosturl);
+let topurl = "http://localhost:8080/com/topsellingcategory?";
+async function fetchTop() {
+    let res = await fetch(topurl);
     let data = await res.json();
 
     if (res.status == 200) {
@@ -11,22 +11,19 @@ async function fetchMost() {
     }
 
     var labels = data.map(function(e) {
-       return e.product_name;
+       return e.product_category;
     });
     var mom = data.map(function(e) {
-       return e.month;
+       return e.qty;
     });;
-       var bob = data.map(function(e) {
-           return e.months;
-        });;
 
-    var ctx = document.getElementById('canvasTwo').getContext('2d');
+    var ctx = document.getElementById('canvasOne').getContext('2d');
     var config = {
        type: 'bar',
        data: {
           labels: labels,
           datasets: [{
-             label: 'Product',
+             label: 'Quantity',
              data: mom,
              backgroundColor: 'rgba(0, 119, 204, 0.3)'
           }]
@@ -37,4 +34,3 @@ async function fetchMost() {
 
 
 }
-

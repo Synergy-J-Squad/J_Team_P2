@@ -9,3 +9,11 @@ var chart = new Chart('myChart', {
     ]
   }
 });
+
+let userurl = "http://localhost:8080/com/salesbyhour?";
+let res = await fetch(userurl);
+    let data = await res.json();
+var lchart = anychart.fromJson(data);
+
+// draw chart
+lchart.draw();

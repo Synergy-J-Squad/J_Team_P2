@@ -4,6 +4,8 @@ package com.revature.models;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.persistence.*;
 
@@ -12,20 +14,14 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class mostpopular {
+public class topsellingcategory {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Integer id;
 
-    private String product_name;
-    private Integer count;
-    private Integer month;
-    private String months;
-
-
-
-
+    private String product_category;
+    private Integer qty;
 
 }

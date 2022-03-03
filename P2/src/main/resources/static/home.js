@@ -1,62 +1,19 @@
-function getQuestionOne(url,methods) {
-
-
-
-
-  let xhr = new XMLHttpRequest();
-
-  xhr.onreadystatechange = receiveData;
-
-  xhr.open(methods, url, true)
-  xhr.send();
-
-  function receiveData() {
-
-      if (xhr.readyState == 4 && xhr.status == 200) {
-          let x = xhr.responseText;
-
-           chartInfo = JSON.parse(x);
-
-           createChart(chartInfo);
-          }
-          
-
+var chart = new Chart('myChart', {
+  type: 'horizontalBar',
+  data: {
+    labels: ['A', 'B', 'C'],
+    datasets: [
+      {
+        data: [10, 20, 30]
       }
+    ]
   }
-
-function createChart(chartInfo){
-  barHeight=[];
-  barLabels=[];
-  for(i in chartInfo){
-      let country=chartInfo[i]['country']
-      barLabels.push(country);
-      barHeight.push(chartInfo[i]['Country'])
-
-  }
-  console.log(barLabels)
-  console.log(barHeight)
-
-let myChart = document.getElementById('canvasOne').getContext('2d');
-
-
-  let popchart= new Chart( myChart,{
-  type:'bar',
-  data:{
-      labels:barLabels,
-      datasets:[{
-          label:'Country',
-          backgroundColor: ["#F26925", "#474C55","#474C55"],
-          data: barHeight
-          
-
-}]
-},
-options:{
-plugins: {
-title: {
-  display: true,
-  text: `Countries`
-      }}
-}
 });
-}
+
+let userurl = "http://localhost:8080/com/salesbyhour?";
+let res = await fetch(userurl);
+    let data = await res.json();
+var lchart = anychart.fromJson(data);
+
+// draw chart
+lchart.draw();
