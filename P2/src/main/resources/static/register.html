@@ -4,6 +4,39 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>New User</title>
+<<<<<<< HEAD
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>ETL E-Commerce Database</h1>
+
+    <main>
+<form action="users"  method="POST">
+    <fieldset class="form-box" id="form-box">
+        <legend class="label-class">New User Registration</legend>
+        <label class="label-class">First Name:
+            <input class="input-field" type="text" name="firstname" minlength="1" required>
+        </label>
+        <br/>
+        <br/>
+        <label class="label-class"> Last Name:
+            <input class="input-field" type="text" name="lastname" minlength="1" required>
+        </label>
+        <br/>
+        <br/>
+        <label class="label-class">E-mail:
+            <input  class="input-field" type="email" name="email" placeholder="email@example.com" required>
+        </label>
+        <br/>
+        <br/>
+        <label class="label-class">Password:
+            <input class="input-field" type="password" id="password" name="password" minlength="7"  onkeyup='check();' onchange='check_pass();' required>
+        </label>
+        <br/>
+        <br/>
+        <label class="label-class">Confirm Password:
+            <input  class="input-field"type="password" id="confirm_password" name="RePassword" minlength="7" onkeyup='check();' onchange='check_pass();' required>
+=======
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -33,6 +66,7 @@
         <br/>
         <label>Confirm Password:
             <input type="password" id="confirm_password" name="RePassword" minlength="7" onkeyup='check();' onchange='check_pass();' required>
+>>>>>>> c69151db51217aa45a954a8b6dd2a1d0bd31ef9a
             <span id='message'></span>
         </label>
         <br/>
@@ -66,10 +100,17 @@
     </fieldset>
 
     <br>
+<<<<<<< HEAD
+    <input class="submit-css" type="submit" id="submit" disabled onclick="goHome()">
+
+</form>
+</main>
+=======
     <input type="submit" id="submit" disabled onclick="goHome()">
 
 </form>
 
+>>>>>>> c69151db51217aa45a954a8b6dd2a1d0bd31ef9a
 
 </body>
 </html>
