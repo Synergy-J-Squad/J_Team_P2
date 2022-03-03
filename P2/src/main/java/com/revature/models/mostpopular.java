@@ -22,6 +22,8 @@ public class mostpopular {
     private String product_name;
     private Integer count;
     private Integer month;
+    private String months;
+
 
 
 
