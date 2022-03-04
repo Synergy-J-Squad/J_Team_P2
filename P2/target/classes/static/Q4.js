@@ -23,7 +23,7 @@ async function fetchHour() {
        data: {
           labels: labels,
           datasets: [{
-             label: 'Hour',
+             label: 'Sales',
              data: mom,
              backgroundColor: 'rgba(0, 119, 204, 0.3)'
           }]

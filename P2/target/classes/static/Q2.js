@@ -26,7 +26,7 @@ async function fetchMost() {
        data: {
           labels: labels,
           datasets: [{
-             label: 'Product',
+             label: 'Month',
              data: mom,
              backgroundColor: 'rgba(0, 119, 204, 0.3)'
           }]
