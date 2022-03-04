@@ -5,44 +5,56 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chart.js Line Chart</title>
+    <link rel="stylesheet" href="index.css">
     <!--Chart.js JS CDN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.js"></script>
     <script src="Q1.js"></script>
     <script src="Q2.js"></script>
     <script src="Q3.js"></script>
     <script src="Q4.js"></script>
-</head>
-<body>
 
+
+</head>
+<h1>ETL E-Commerce Dashboard</h1>
+
+<body>
+    
+<div class="graphBox">
 <div>
     <canvas id="bar-chart"></canvas>
 </div>
+</div>
+<br/>
 
 <div>
-    <button type="button" class="btn btn-primary" onclick="fetchTop()">Top Selling Category of items</button>
+    <button type="button" class="submit-css" onclick="fetchTop()">Top Selling Category of items</button>
 </div>
 <div class="questionOne">
     <canvas id="canvasOne"></canvas>
 </div>
 
+<br/>
 
 <div>
-    <button type="button" class="btn" onclick="fetchMost()">Popularity of products throughout the year</button>
+    <button type="button" class="submit-css" onclick="fetchMost()">Popularity of products throughout the year</button>
 </div>
 <div class="questionTwo">
     <canvas id="canvasTwo"></canvas>
 </div>
 
+<br/>
 
 <div>
-    <button type="button" onclick="fetchTraffic()">locations with the highest traffic of Sales</button>
+    <button type="button" class="submit-css" onclick="fetchTraffic()">locations with the highest traffic of Sales</button>
 </div>
 <div class="questionTwo">
     <canvas id="canvasThree"></canvas>
 </div>
 
+<br/>
+
 <div>
-    <button type="button" onclick="fetchHour()">Times with the highest sales</button>
+    <button type="button" class="submit-css" onclick="fetchHour()">Times with the highest sales</button>
 </div>
 <div class="questionTwo">
     <canvas id="canvasFour"></canvas>
@@ -68,12 +80,13 @@ new Chart(document.getElementById("bar-chart"), {
       title: {
         display: true,
         text: 'Visualization of filtered Data'
+
       }
     }
 });
 </script>
 
-
-
+</div>
+    
 </body>
 </html>
