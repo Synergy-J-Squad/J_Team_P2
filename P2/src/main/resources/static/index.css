@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body {
-    background-color: rgb(115, 165,194);
+    background-color: white;
 }
 header {
     background-color: black;
@@ -20,7 +20,8 @@ h1 {
     text-align: center;
     height: 10vh;
     padding-top: 50px;
-    max-height: 25%;
+    max-height:25%;
+    background-color: rgb(115, 165,194);
 }
 main {
     display: flex;
@@ -39,15 +40,15 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     background-color: orange;
     background-size: cover;
     border: 1px solid black;
     border-left:none;
     border-right:none;
-    padding-top: 100px;
-    max-height: 75%;
+    padding-top: 00px;
+    max-height:100%
 }
 .login {
     width: 500px;

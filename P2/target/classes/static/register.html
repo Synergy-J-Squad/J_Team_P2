@@ -4,35 +4,36 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>New User</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-<form action="users"  method="POST">
-    <fieldset>
-        <legend>New User Registration</legend>
-        <label>First Name:
-            <input type="text" name="firstname" minlength="1" required>
+    <h1>ETL E-Commerce Database</h1>
+<main>
+<form action="users" class="login"  method="POST">
+    <fieldset class="form-box">
+        <legend class="label-class">New User Registration</legend>
+        <label class="label-class">First Name:
+            <input type="text" class="input-field" name="firstname" minlength="1" required>
         </label>
         <br/>
         <br/>
-        <label>Last Name:
-            <input type="text" name="lastname" minlength="1" required>
+        <label class="label-class">Last Name:
+            <input type="text" class="input-field" name="lastname" minlength="1" required>
         </label>
         <br/>
         <br/>
-        <label>E-mail:
-            <input type="email" name="email" placeholder="email@example.com" required>
+        <label class="label-class">E-mail:
+            <input type="email" class="input-field" name="email" placeholder="email@example.com" required>
         </label>
         <br/>
         <br/>
-        <label>Password:
-            <input type="password" id="password" name="password" minlength="7"  onkeyup='check();' onchange='check_pass();' required>
+        <label class="label-class">Password:
+            <input type="password" id="password"  class="input-field" name="password" minlength="7"  onkeyup='check();' onchange='check_pass();' required>
         </label>
         <br/>
         <br/>
-        <label>Confirm Password:
-            <input type="password" id="confirm_password" name="RePassword" minlength="7" onkeyup='check();' onchange='check_pass();' required>
+        <label class="label-class">Confirm Password:
+            <input type="password" id="confirm_password"  class="input-field" name="RePassword" minlength="7" onkeyup='check();' onchange='check_pass();' required>
             <span id='message'></span>
         </label>
         <br/>
@@ -66,10 +67,10 @@
     </fieldset>
 
     <br>
-    <input type="submit" id="submit" disabled onclick="goHome()">
+    <input type="submit" id="submit" class="submit-css" disabled onclick="goHome()">
 
 </form>
 
-
+</main>
 </body>
 </html>
